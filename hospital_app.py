@@ -86,7 +86,7 @@ DEPT_INFO = {
 
 # ── Hero Header ───────────────────────────────────────────────────────────────
 st.markdown("""
-<div style="background:linear-gradient(135deg,#6E6767 0%,#382020 60%,#0ea5e9 100%);
+<div style="background:linear-gradient(135deg,#6E6767 0%,#382020 60%,#000000 100%);
             padding:3rem 2rem 2.5rem;margin:-1rem -1rem 2rem;text-align:center;">
     <div style="font-size:14px;font-weight:500;color:rgba(255,255,255,0.7);
                 text-transform:uppercase;letter-spacing:0.1em;margin-bottom:12px;">
@@ -107,10 +107,10 @@ with st.form("triage_form"):
 
     # Section 1 — Symptoms
     st.markdown("""
-    <div style="background:#f0f9ff;border:1px solid #bae6fd;border-radius:14px;
+    <div style="background:#FFFFFF;border:1px solid #665454;border-radius:14px;
                 padding:20px 24px;margin-bottom:20px;">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
-            <span style="background:#0284c7;color:white;border-radius:8px;
+            <span style="background:#4D3F3F;color:white;border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">1</span>
             <span style="font-size:16px;font-weight:600;color:#0c4a6e;">What are your main symptoms?</span>
             <span style="font-size:13px;color:#6b7280;font-style:italic;">select all that apply</span>
