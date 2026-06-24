@@ -112,8 +112,8 @@ with st.form("triage_form"):
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
             <span style="background:#4D3F3F;color:white;border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">1</span>
-            <span style="font-size:16px;font-weight:600;color:#0c4a6e;">What are your main symptoms?</span>
-            <span style="font-size:13px;color:#6b7280;font-style:italic;">select all that apply</span>
+            <span style="font-size:16px;font-weight:600;color:#5C5A5A;">What are your main symptoms?</span>
+            <span style="font-size:13px;color:#402828;font-style:italic;">select all that apply</span>
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -140,12 +140,12 @@ with st.form("triage_form"):
 
     # Section 2 — Duration & Complaint
     st.markdown("""
-    <div style="background:#fdf4ff;border:1px solid #e9d5ff;border-radius:14px;
+    <div style="background:#fdf4ff;border:1px solid #362020;border-radius:14px;
                 padding:20px 24px;margin-bottom:20px;">
         <div style="display:flex;align-items:center;gap:10px;">
-            <span style="background:#7c3aed;color:white;border-radius:8px;
+            <span style="background:#1A1414;color:white;border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">2</span>
-            <span style="font-size:16px;font-weight:600;color:#3b0764;">How long have you had these symptoms?</span>
+            <span style="font-size:16px;font-weight:600;color:#855656;">How long have you had these symptoms?</span>
         </div>
     </div>
     """, unsafe_allow_html=True)
